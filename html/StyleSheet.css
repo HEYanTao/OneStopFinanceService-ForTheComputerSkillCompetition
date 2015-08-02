@@ -1,0 +1,125 @@
+﻿.chromestyle
+{
+    background-color: #FFCC00;
+    height: 30px;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+border: 1px solid #BBB;
+width: 100%;
+background:  center center repeat-x; /*THEME CHANGE HERE*/
+background-color:#FFCC00 ;
+padding: 4px 0;
+margin: 0;
+text-align: center; /*set value to "left", "center", or "right"**/
+}
+
+.chromestyle ul li{
+display: inline;
+
+}
+
+.chromestyle ul li a{
+color: white ;
+padding: 4px 7px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #DADADA;
+
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected
+{
+    /*script dynamically adds a class of "selected" to the current active menu item*/
+    background-color: #FF9900; /*menu yan se*/
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:25px;
+z-index:100;
+background-color: yellow;
+width: 200px;
+visibility: hidden;
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: white;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover
+{
+    /*THEME CHANGE HERE*/
+    background-color: #FFFF00;
+}
+.mainbox{
+    overflow:hidden;
+    position:relative;
+}
+.flashbox{
+   overflow:hidden;
+    position:relative;
+}
+.imagebox{
+    text-align:right;position:relative;z-index:999;
+}
+
+.bitdiv{display:inline-block;width:18px;height:18px;margin:0 10px 10px 0px;cursor:pointer;float:right;}
+.defimg{background-image:url(../images1/02.png)}
+.curimg{background-image:url(../images1/01.png)}
+
+
+
+.jfade_image, .portfolio{margin:15px;float:left }
+.bgtitle {
+margin:auto;width:1200px;background-image:url(images1/bg.jpg);height:160px 
+
+}
+.at {
+    width: 1200px;
+    margin:auto ;
+}
+.subtitle {
+}
+.button {
+   width:150px;height:25px
+}
+.txt {
+   width:200px;height:25px
+
+}
+#id1 {background:url(../backgrounds/1.jpg)}
+#top{width:1065px;height:200px;border-bottom:1px solid blue;background:url(../backgrounds/0002.jpg);}
+#top ul{width:350px;height:30px;margin:0px;list-style:none;}
+#top ul li{float:left;width:100px;height:30px;padding-left:10px;}
+#top ul li a{display:block;width:100px;height:30px;text-decoration:none;text-align:center;line-height:2;}
+#top ul li a:link{color:blue;}
+#top ul li a:visited{color:blue;}
+#top ul li a:active{background-color:Green;}
+#top ul li a:hover{color:Red;text-decoration:underline;}

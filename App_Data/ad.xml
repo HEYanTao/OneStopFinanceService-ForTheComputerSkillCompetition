@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements xmlns="
+http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File">
+  <Ad>
+    <ImageUrl>~/ad/gf.png</ImageUrl>
+    <NavigateUrl>http://www.gffunds.com.cn</NavigateUrl>
+    <AlternateText>广发基金</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>guangfa</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/ad/zfb.png</ImageUrl>
+    <NavigateUrl>https://www.alipay.com/</NavigateUrl>
+    <AlternateText>支付宝</AlternateText>
+    <Impressions>60</Impressions>
+    <Keyword>zfb</Keyword>
+  </Ad>
+</Advertisements>

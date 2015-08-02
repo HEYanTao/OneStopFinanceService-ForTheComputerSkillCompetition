@@ -1,0 +1,9 @@
+﻿#id1 {background:url(backgrounds/zz1.jpg)}
+#top{width:1024px;height:200px;border-bottom:1px solid purple;background:url(backgrounds/yekong.png);}
+#top ul{width:340px;height:30px;margin:0px;list-style:none;}
+#top ul li{float:left;width:100px;height:30px;padding-left:10px;}
+#top ul li a{display:block;width:100px;height:30px;text-decoration:none;text-align:center;line-height:2;background:pink;}
+#top ul li a:link{color:blue;}
+#top ul li a:visited{color:blue;}
+#top ul li a:active{background-color:Green;}
+#top ul li a:hover{color:Red;text-decoration:underline;}
